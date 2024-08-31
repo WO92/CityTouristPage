@@ -1,0 +1,125 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    background-color: #F1FAEE;
+    margin: 0;
+    text-align: center;
+}
+
+img {
+    width: 100px;
+}
+#Torshov{
+    background-image: url(images/torshov.jpg);
+    background-size:cover;
+    width: 720px;
+    height: 343px;
+    padding-top: 1px;
+    }
+#title
+{
+    color: white;
+    background-color: #1D3557;
+    padding: 3px 12px 3px 12px;
+    width: 225px;
+    height: 42px;
+    border-radius: 10px;
+    font-size: 32px;
+    margin-top: 119px;
+    margin-left: 247px;
+}
+#title:hover {
+    background-color: blue;
+    font-size: 35px;
+}
+#subtitle{
+    color: aliceblue;
+    font-size: 18.72px;
+    background-color: #457B9D;
+    width: 412px;
+    height: 52px; 
+    margin-top: 11px;
+    margin-left: 154px;
+    border-radius: 10px;
+    padding: 5px 29px 8px 28px;
+}
+#act{
+    width: 720px;
+    height: 378px;
+}
+#activity{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color: #1D3557;
+    margin-top: 39px;
+    margin-left: 140px;
+    background-color: #F1FAEE;
+}
+.container2 {
+    background-color: #F1FAEE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.item{
+    height: 198px;
+    width: 226px;
+    margin-left: 25px;
+    margin-right: auto;
+}
+.a{
+     border-radius: 50%;
+     margin-top: 1px;
+}
+.activity-title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 600 ;
+    color: #1D3557;
+}
+.activity-subtitle{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400 ;
+    color: #1D3557;
+}
+.guide{
+    width: 720px;
+    Height: 394px
+}
+.info-box{
+    margin: 50px 160px 50px 150px;
+    border-radius: 10px;
+    height: 294px ;
+    width: 400px;
+    background-color: #A8DADC;
+    box-shadow: 5px 10px #1D3557;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+}
+.picture{
+    height: 248px;
+    width: 180px;
+    margin: 73px 367px 73px 173px;
+}
+.info-box2{
+    margin: -380px 180px -80px 360px;
+    border-radius: 10px;
+    height: 330px ;
+    width: 170px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+}
